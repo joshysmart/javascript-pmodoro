@@ -1,5 +1,4 @@
 const breakTime = document.querySelector('.break-time')
-const breakOver = document.querySelector('.break-over')
 
 const inSession = document.querySelector('.session > h3')
 const onBreak = document.querySelector('.break > h3')
@@ -122,7 +121,7 @@ function stopTimer() {
   sec = 0
   seconds = min * 60 
   clockTimer.textContent = `${breaakCount.textContent}:00`
-  breakOver.play()
+  breakTime.play()
   return
  }
 
