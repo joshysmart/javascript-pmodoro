@@ -121,7 +121,6 @@ function stopTimer() {
   sec = 0
   seconds = min * 60 
   clockTimer.textContent = `${breaakCount.textContent}:00`
-  breakTime.play()
   return
  }
 
@@ -160,6 +159,7 @@ function startBreak() {
    clearInterval(countDown)
    let minutes = sessionCount.textContent
    seconds = minutes * 60
+   breakTime.play()
    startTimer()
   }
   displayTimeLeft(secondsLeft)
