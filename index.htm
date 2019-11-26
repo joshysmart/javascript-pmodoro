@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="./images/pomodoro.png" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css">
+  <title>Javascript pomodoro clock</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="session-container">
+      <div class="session">
+        <h3>session</h3>
+        <i class="session-up fa fa-caret-up"></i>
+        <span class="session-count">25</span>
+        <i class="session-down fa fa-caret-down"></i>
+      </div>
+
+      <div class="break">
+        <h3>break</h3>
+        <i class="break-up fa fa-caret-up"></i>
+        <span class="break-count">05</span>
+        <i class="break-down fa fa-caret-down"></i>
+      </div>
+    </div>
+
+    <div class="timer-container">
+      <div class="timer">00:59</div>
+      <div class="controls">
+        <i class="refresh fa fa-refresh"></i>
+        <i class="play fa fa-play"></i>
+        <i class="pause fa fa-pause"></i>
+        <i class="stop fa fa-stop"></i>
+      </div>
+    </div>
+  </div>
+  <audio class="break-time" style="display: none;" src="./audio/break-time.mp3"></audio>
+  <audio class="break-over" style="display: none;" src="./audio/break-over.wav"></audio>
+  <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+ * {
+  box-sizing: border-box;
+  margin: 0;
+ }
+
+ body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #fff;
+  background: #201c2a;
+ }
+
+ .container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('./images/pomodoro.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+ }
+
+ .session-container {
+  display: flex;
+ }
+
+ .session-container .session,
+ .break {
+  text-align: center;
+  margin-top: 50px;
+  padding: 25px;
+  font-size: 2em;
+  text-shadow: 1px 1px 1px #000,
+   2px 2px 3px #fff;
+
+ }
+
+ .session-container span {
+  font-family: orbitron;
+ }
+
+ .timer-container .timer {
+  text-align: center;
+  padding: 0 0 50px 0;
+  font-family: orbitron;
+  font-size: 4em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000,
+   3px 3px 5px #28422e;
+ }
+
+ .timer-container .controls {
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 1px 1px 1px #000,
+   2px 2px 3px #fff;
+ }
+
+ .timer-container .controls i {
+  padding: 5px;
+ }
