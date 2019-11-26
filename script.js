@@ -19,9 +19,6 @@ const reduceSession = document.querySelector('.session-down')
 const increaseBreak = document.querySelector('.break-up')
 const reduceBreak = document.querySelector('.break-down')
 
-const breakTime = document.querySelector('.break-time')
-const breakOver = document.querySelector('.break-over')
-
 let countDown;
 let min;
 let sec;
